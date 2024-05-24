@@ -1,0 +1,22 @@
+.promo {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.promo__desc {
+  font-size: 36px;
+  text-transform: uppercase;
+  line-height: 135%;
+}
+
+.promo__desc span {
+  color: var(--danger-color);
+  display: flex;
+  align-items: center;
+}
+
+.promo__img {
+
+}

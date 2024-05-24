@@ -1,0 +1,62 @@
+@import 'variables.css';
+@import 'hero.css';
+@import 'runtext.css';
+@import 'promo.css';
+@import 'game.css';
+@import 'stages.css';
+@import 'participants.css';
+@import 'media.css';
+
+/* font styles */
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* common styles */
+body {
+  font-family: 'Golos Text', serif;
+  min-height: 100%;
+  color: var(--primary-text-color)
+}
+
+main {
+  padding: 0 32px;
+}
+
+.container {
+  max-width: 1255px; /* max width of the content container */
+  margin: 0 auto; /* to put all the content into center */
+}
+
+.header {
+  font-size: 54px;
+  margin-bottom: 54px;
+  text-transform: uppercase;
+  width: 806px;
+  line-height: 120%;
+  font-weight: 400;
+}
+
+
+/* footer */
+footer {
+  background-color: var(--secondary-bg-color);
+  display: flex;
+  align-items: center;
+  padding: 0 72px;
+  height: 150px;
+}
+
+footer p {
+  line-height: 120%;
+  font-size: 16px; 
+  color: var(--primary-light-text-color)
+}

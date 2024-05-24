@@ -1,0 +1,43 @@
+.runtext {
+  background-color: var(--danger-color);
+  box-shadow: var(--block-shadow);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.runtext__list {
+  display: flex;
+  gap: 24px;
+  animation: runtext 16s linear infinite;
+}
+
+.runtext__item {
+  color: var(--secondary-text-color);
+  font-size: 22px;
+  text-transform: uppercase;
+  position: relative;
+  white-space: nowrap;
+}
+
+.runtext__item::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  background-color: var(--secondary-text-color);
+  position: absolute;
+  border-radius: 50%;
+  right: -16px;
+  top: 6px;
+}
+
+@keyframes runtext {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-2335px);
+  }
+}

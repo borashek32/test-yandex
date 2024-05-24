@@ -1,0 +1,119 @@
+.hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('/img/hero1920.png');
+  padding: 26px 72px 128px 72px;
+  box-shadow: var(--block-shadow);
+}
+
+.hero__content {
+  width: 542px;
+  margin-top: 62px;
+}
+
+.logo {
+  display: flex;
+  gap: 6.35px;
+  align-items: center;
+}
+
+.logo__imgWrapper {
+  display: flex;
+  gap: 1.73px;
+}
+
+.logo__imgWrapper img {
+  width: 21.65px;
+  height: 31.18px;
+}
+
+.logo__titleWrapper p {
+  font-size: 16.65px;
+  line-height: 108%;
+  font-family: 'Golos Text', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hero__header {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__header h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  line-height: 110%;
+}
+
+.hero__header h2:first-child {
+  text-align: left;
+}
+
+.hero__header h2:nth-child(2) {
+  text-align: center;
+}
+
+.hero__header h2:nth-child(3) {
+  text-align: right;
+}
+
+.hero__desc p {
+  margin: 24px 0px 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.hero__buttonsWrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.buttonsWrapper {
+
+}
+
+.hero__button_support,
+.hero__button_details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 236px;
+  height: 68px;
+  border-radius: 66px;
+  font-size: 16px;
+  line-height: 130%;
+  width: 50%;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.hero__button_support {
+  color: var(--secondary-text-color);
+  background-color: var(--button-bg-dark-color);
+}
+
+.hero__button_support:hover {
+  color: var(--primary-text-color);
+  background-color: var(--button-bg-light-color);
+  border: 2px solid var(--button-bg-light-color);
+}
+
+.hero__button_details:last-child {
+  color: var(--primary-text-color);
+  border: 2px solid var(--button-bg-dark-color);
+  background-color: inherit;
+}
+
+.hero__button_details:last-child:hover {
+  border: 2px solid var(--button-bg-dark-color);
+  color: var(--secondary-text-color);
+  background-color: var(--button-bg-dark-color);
+}
+
+.hero__button_support p,
+.hero__button_details p {
+  width: 150px;
+  text-align: center;
+}

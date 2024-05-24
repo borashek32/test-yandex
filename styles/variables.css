@@ -1,0 +1,26 @@
+:root {
+  --primary-bg-color: #8B8B8B;
+  --secondary-bg-color: #E9DED4;
+
+  --button-bg-light-color: #FBCE51;
+  --button-bg-dark-color: #1F1F1F;
+
+  --danger-color: #F54932;
+  --grey-light-color: #D0D0D0;
+
+  --primary-text-color: #313131;
+  --primary-text-hover-color: #767575;
+  --primary-light-text-color: #a09f9f;
+  --secondary-text-color: #ffffff;
+  --link-text-color: #3057A2;
+  --link-text-hover-color: #122851;
+
+  --container-max-width: 1613px; /* 1920 */
+  --container-min-width: 335px; /* 375 */
+  --container-padding: 10px;
+
+  --transition: all .3s ease;
+  --transition-participants: all 2s ease;
+
+  --block-shadow: 0px 4px 4px hsla(0, 0%, 0%, 0.25);
+}

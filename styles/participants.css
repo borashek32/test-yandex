@@ -1,0 +1,114 @@
+.participants {
+  margin-top: 200px;
+  margin-bottom: 140px;
+}
+
+.participants__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.pages {
+  display: flex;
+  gap: 16px;
+  padding-top: 10px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pages__arrowWrapper {
+  border: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--primary-text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.pages__arrowWrapper:hover {
+  background-color: var(--primary-text-hover-color);
+}
+
+.pages__arrowWrapper:active {
+  background-color: var(--primary-light-text-color);
+}
+
+.pages__arrowWrapper:disabled {
+  background-color: var(--grey-light-color);
+}
+
+.pages__numbers {
+  font-size: 18px;
+}
+
+.participants__slider {
+  padding: 0 37px;
+  overflow: hidden;
+}
+
+.cardsWrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 108px;
+  scrollbar-width: none;
+  position: relative;
+  width: 1366px;
+  left: 0;  
+  transition: var(--transition-participants);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__imgWrapper {
+  width: 300px;
+  height: 300px;
+  background-image: url('/img/gradient.png');
+  border-radius: 50%;
+  padding-top: 21px;
+  padding-left: 10px;
+  overflow: hidden;
+}
+
+.card__name {
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 600;
+  margin-top: 28px;
+  margin-bottom: 6px;
+}
+
+.card__title {
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--primary-light-text-color);
+  margin-bottom: 20px;
+}
+
+.card__button {
+  width: 113px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 62px;
+  border: 1px solid var(--link-text-color);
+  background-color: inherit;
+  color: var(--link-text-color);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.card__button:hover {
+  border: 1px solid var(--link-text-hover-color);
+  color: var(--link-text-hover-color);
+}
